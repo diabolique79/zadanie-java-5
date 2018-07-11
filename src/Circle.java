@@ -1,3 +1,5 @@
+import static java.lang.Math.*;
+
 public class Circle {
 
     double r;
@@ -7,6 +9,11 @@ public class Circle {
 
         this.r = r;
 
+    }
 
-    };
+    double circleArea () {
+
+        return circleArea = Math.round(Math.PI * pow(r, 2));
+    }
+
 }

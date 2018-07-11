@@ -1,3 +1,5 @@
+import static java.lang.Math.*;
+
 public class Rectangle {
 
     double a;
@@ -8,5 +10,10 @@ public class Rectangle {
 
         this.a = a;
         this.b = b;
+    }
+
+    double rectPerimeter (){
+
+        return rectPerimeter = 2 * (a + b);
     }
 }

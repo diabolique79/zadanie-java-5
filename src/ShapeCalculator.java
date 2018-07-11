@@ -24,7 +24,7 @@ public class ShapeCalculator {
 
     double trianglePerimeter (Triangle triangle){
 
-        return triangle.triangleArea = triangle.a + triangle.b + triangle.c;
+        return triangle.trianglePerimeter = triangle.a + triangle.b + triangle.c;
     }
 
 }

@@ -1,9 +1,11 @@
+import static java.lang.Math.*;
+
 public class Triangle {
 
     double a;
     double b;
     double c;
-    double triangleArea;
+    double trianglePerimeter;
 
 
     Triangle(double a, double b, double c){
@@ -12,4 +14,10 @@ public class Triangle {
         this.b = b;
         this.c = c;
     }
+
+    double trianglePerimeter (){
+
+        return trianglePerimeter = a + b + c;
+    }
+
 }
